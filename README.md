@@ -17,7 +17,7 @@ Durante o desenvolvimento foram utilizados conceitos como:
 * Controle de versão com GitHub
 * Organização de tarefas com Kanban
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * HTML5
 * CSS3
@@ -25,16 +25,18 @@ Durante o desenvolvimento foram utilizados conceitos como:
 * MySQL
 * Git
 * GitHub
+* Python
 
-## ⚙️ Funcionalidades do Sistema
+## Funcionalidades do Sistema
 
 * Cadastro de usuários
 * Login de usuários
-* Visualização de produtos
-* Organização de produtos por categoria
+* Possibilidade de combinar corridas
+* Possibilidade de se cadastrar como motorista
+* 
 * Adição de produtos ao carrinho
 
-## 📋 Metodologia
+## Metodologia
 
 O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvimento através de:
 
