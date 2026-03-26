@@ -43,6 +43,10 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Kanban
 * Organização de tarefas no GitHub Projects
 
+
+
+```mermaid
+
 sequenceDiagram
     participant U as Usuário (Universitário)
     participant APP as Aplicativo UniMove
