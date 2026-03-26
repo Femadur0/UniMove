@@ -44,7 +44,7 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Organização de tarefas no GitHub Projects
 
 
-**Diagrama**
+## Diagrama
 
 ```mermaid
 
