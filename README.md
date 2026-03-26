@@ -44,72 +44,106 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Organização de tarefas no GitHub Projects
 
 
+**Diagrama**
 
 ```mermaid
 
 sequenceDiagram
-    participant U as Usuário (Universitário)
-    participant APP as Aplicativo UniMove
-    participant API as Backend (Servidor)
+    participant U as Usuário
+    participant APP as App UniMove
+    participant API as Backend
     participant DB as Banco de Dados
     participant M as Motorista
 
     %% Cadastro e Login
-    U->>APP: Cadastrar novo usuário
-    APP->>API: Envia dados de cadastro
+    U->>APP: Cadastro de novos usuários
+    APP->>API: Envia dados
     API->>DB: Salva usuário
-    DB-->>API: Confirma cadastro
-    API-->>APP: Cadastro realizado
+    DB-->>API: OK
+    API-->>APP: Cadastro concluído
 
     U->>APP: Login no sistema
     APP->>API: Envia credenciais
-    API->>DB: Valida usuário
-    DB-->>API: Dados válidos
-    API-->>APP: Login autorizado
+    API->>DB: Valida login
+    DB-->>API: OK
+    API-->>APP: Acesso liberado
 
-    %% Solicitação de corrida
-    U->>APP: Definir ponto de encontro
+    %% Cadastro como motorista
+    U->>APP: Solicitar cadastro como motorista
+    APP->>API: Envia dados (CNH, veículo, etc.)
+    API->>DB: Salva dados do motorista
+    DB-->>API: OK
+    API-->>APP: Cadastro como motorista aprovado
+    APP-->>U: Usuário agora é motorista
+
+    %% Definição de trajeto
+    U->>APP: Definir origem e destino
     APP->>API: Envia localização
-    API-->>APP: Confirma localização
+    API->>DB: Consulta rotas
+    DB-->>API: Dados de rota
+    API-->>APP: Exibe trajeto
 
+    U->>APP: Estimar tempo da carona
+    APP->>API: Solicita estimativa
+    API-->>APP: Tempo estimado
+
+    %% Buscar e solicitar corrida
     U->>APP: Buscar corrida
-    APP->>API: Solicita motoristas disponíveis
-    API->>DB: Consulta motoristas
-    DB-->>API: Lista de motoristas
+    APP->>API: Solicita motoristas
+    API->>DB: Busca motoristas disponíveis
+    DB-->>API: Lista
     API-->>APP: Exibe opções
 
     U->>APP: Solicitar carona
     APP->>API: Envia solicitação
-    API-->>M: Notifica motorista
+    API-->>M: Notificação de corrida
 
-    M->>API: Aceitar/Rejeitar corrida
-    API-->>APP: Retorna status
+    %% Aceite
+    M->>API: Aceitar/Rejeitar solicitação
+    API-->>APP: Atualiza status
+
+    %% Chat
+    U->>APP: Enviar mensagem
+    APP->>API: Encaminha mensagem
+    API-->>M: Recebe mensagem
+    M->>API: Responde mensagem
+    API-->>APP: Exibe resposta
 
     %% Pagamento
-    U->>APP: Escolher forma de pagamento
+    U->>APP: Escolher pagamento
     APP->>API: Processar pagamento
     API->>DB: Registrar pagamento
-    DB-->>API: Confirma pagamento
+    DB-->>API: Confirmação
     API-->>APP: Corrida confirmada
 
-    %% Durante a corrida
-    APP-->>U: Exibir trajeto em tempo real
-    API-->>APP: Atualiza localização
+    %% Início da corrida
+    M->>API: Iniciar corrida
+    API-->>APP: Notifica início
 
-    %% Finalização
-    API-->>APP: Corrida finalizada
-    APP-->>U: Solicitar avaliação
-    U->>APP: Avaliar motorista
-    APP->>API: Enviar avaliação
-    API->>DB: Salvar avaliação
+    %% Durante corrida
+    API-->>APP: Atualização de trajeto em tempo real
+    APP-->>U: Visualizar rota
 
-    %% Extras
-    U->>APP: Visualizar histórico de corridas
-    APP->>API: Solicita histórico
-    API->>DB: Busca dados
-    DB-->>API: Retorna histórico
-    API-->>APP: Exibe histórico
-
+    %% Cancelamento (alternativo)
     U->>APP: Cancelar corrida
     APP->>API: Solicita cancelamento
     API-->>M: Notifica cancelamento
+
+    %% Finalização
+    M->>API: Finalizar corrida
+    API-->>APP: Corrida encerrada
+
+    %% Avaliação
+    U->>APP: Avaliar motorista
+    APP->>API: Envia avaliação
+    API->>DB: Salva avaliação
+
+    %% Histórico
+    U->>APP: Visualizar histórico
+    APP->>API: Solicita dados
+    API->>DB: Busca histórico
+    DB-->>API: Retorna dados
+    API-->>APP: Exibe corridas
+
+    %% Notificações
+    API-->>APP: Envia notificações (status, mensagens, corrida)
