@@ -2,7 +2,6 @@
 
 O **UniMove** é um projeto de um aplicativo de transporte voluntário de universitário para universitário, trazendo preços mais acessiveis para pessoas que tenham necessidade de deslocamento para universidades e faculdades. A ideia é fazer com que pessoas que já vão de carro para faculdade, se volutanriem para levar outros alunos, e ainda ganhar uma pequeno renda extra.
 
-O sistema permite que usuários se cadastrem, façam login, visualizem produtos e adicionem itens ao carrinho.
 
 ## Objetivo do Projeto
 
