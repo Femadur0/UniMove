@@ -43,6 +43,15 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Kanban
 * Organização de tarefas no GitHub Projects
 
+## Nomes
+* Alice Rocha 
+* Felipe Maduro
+* Igor Santos 
+* Jean Guilherme 
+* Luiz Pedro
+* Pedro Cano
+* Samuel Celli
+* Theodoro Portapilla
 
 ## Diagrama
 
