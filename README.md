@@ -52,6 +52,8 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Samuel Celli
 * Theodoro Portapilla
 
+## Cards Casos de Uso
+https://github.com/users/Femadur0/projects/4
 ## Diagrama app UniMove
 
 ```mermaid
