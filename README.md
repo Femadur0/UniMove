@@ -52,7 +52,7 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Samuel Celli
 * Theodoro Portapilla
 
-## Diagrama
+## Diagrama UniMove
 
 ```mermaid
 
