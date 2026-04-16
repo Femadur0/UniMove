@@ -52,7 +52,7 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 
 ## Fluxograma
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/WhatsApp%20Image%202026-04-15%20at%2009.24.49.jpeg
-## Interfase UniMove
+## Interface UniMove
 https://www.figma.com/make/FRaRkLI418X3CjdheNUKrX/Design-user-interface-screens?p=f&t=jbdPbBUOf9zM5fGM-0&fullscreen=1&preview-route=%2Ffind-ride
 ## Diagrama de Sequência
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/diagramasequencia.md
