@@ -57,6 +57,10 @@ https://github.com/users/Femadur0/projects/4
 
 ## Diagrama app UniMove
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/diagramasequencia
+## Diagrama de Caso de Uso
+https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/Diagrama%20de%20Caso%20de%20Uso.md
+## Diagrama de Estado
+https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/Diagrama%20de%20estado.md
 ```mermaid
 
 sequenceDiagram
