@@ -52,7 +52,7 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Samuel Celli
 * Theodoro Portapilla
 
-## Diagrama app UniMove
+## Diagrama de Sequência
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/diagramasequencia.md
 ## Diagrama de Caso de Uso
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/Diagrama%20de%20Caso%20de%20Uso.md
