@@ -17,7 +17,7 @@ Durante o desenvolvimento foram utilizados conceitos como:
 * Organização de tarefas com Kanban
 
 ## Tecnologias Utilizadas
-
+docs/diagramas/Diagrama de Caso de Uso
 * HTML5
 * CSS3
 * PHP
