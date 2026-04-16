@@ -58,3 +58,5 @@ https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/diagramasequencia.m
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/Diagrama%20de%20Caso%20de%20Uso.md
 ## Diagrama de Estado
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/Diagrama%20de%20estado.md
+## Tabela de Dados
+https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/TABELA%20DE%20DADOS%20-%20UniMove.xlsx
