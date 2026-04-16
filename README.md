@@ -56,7 +56,7 @@ https://github.com/users/Femadur0/projects/4
 * Theodoro Portapilla
 
 ## Diagrama app UniMove
-https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/diagramasequencia
+https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/diagramasequencia.md
 ## Diagrama de Caso de Uso
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/Diagrama%20de%20Caso%20de%20Uso.md
 ## Diagrama de Estado
