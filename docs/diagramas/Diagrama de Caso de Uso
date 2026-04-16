@@ -1,1 +1,55 @@
 
+'''mermaid 
+
+flowchart LR
+    Usuario[Usuário]
+    Motorista[Motorista (Usuário)]
+
+    Usuario --> Motorista
+
+    subgraph Sistema["App UniMove"]
+        UC1(Cadastrar usuário)
+        UC2(Fazer login)
+        UC3(Solicitar cadastro como motorista)
+        UC4(Definir origem e destino)
+        UC5(Estimar tempo)
+        UC6(Buscar corrida)
+        UC7(Solicitar carona)
+        UC8(Enviar mensagem)
+        UC9(Escolher pagamento)
+        UC10(Visualizar rota)
+        UC11(Cancelar corrida)
+        UC12(Avaliar motorista)
+        UC13(Visualizar histórico)
+
+        UC14(Receber solicitação)
+        UC15(Aceitar/Rejeitar corrida)
+        UC16(Iniciar corrida)
+        UC17(Finalizar corrida)
+    end
+
+    %% Usuário comum
+    Usuario --> UC1
+    Usuario --> UC2
+    Usuario --> UC3
+    Usuario --> UC4
+    Usuario --> UC5
+    Usuario --> UC6
+    Usuario --> UC7
+    Usuario --> UC8
+    Usuario --> UC9
+    Usuario --> UC10
+    Usuario --> UC11
+    Usuario --> UC12
+    Usuario --> UC13
+
+    %% Motorista herda tudo + funções extras
+    Motorista --> UC14
+    Motorista --> UC15
+    Motorista --> UC16
+    Motorista --> UC17
+    Motorista --> UC8
+
+    %% Fluxo da corrida
+    UC7 --> UC14
+    UC14 --> UC15
