@@ -41,9 +41,6 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Histórias de usuário
 * Kanban
 * Organização de tarefas no GitHub Projects
-  
-## Cards Casos de Uso
-https://github.com/users/Femadur0/projects/4
 
 ## Nomes
 * Alice Rocha 
