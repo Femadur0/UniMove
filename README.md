@@ -1,4 +1,4 @@
-<img width="240" height="444" alt="image" src="https://github.com/user-attachments/assets/6cc58ea4-18e2-46d7-b8db-afad7c231fd7" /># UniMove
+<img width="240" height="444" alt="image" src="https://github.com/user-attachments/assets/6cc58ea4-18e2-46d7-b8db-afad7c231fd7" />
 
 O **UniMove** é um projeto de um aplicativo de transporte voluntário de universitário para universitário, trazendo preços mais acessiveis para pessoas que tenham necessidade de deslocamento para universidades e faculdades. A ideia é fazer com que pessoas que já vão de carro para faculdade, se volutanriem para levar outros alunos, e ainda ganhar uma pequeno renda extra.
 
@@ -52,7 +52,7 @@ O projeto utiliza princípios de **metodologia ágil**, organizando o desenvolvi
 * Samuel Celli
 * Theodoro Portapilla
 ## Interfase UniMove
-https://www.figma.com/make/FRaRkLI418X3CjdheNUKrX/Design-user-interface-screens?t=4N8Do7LCneHHPzR5-1&preview-route=%2Ffind-ride
+https://www.figma.com/make/FRaRkLI418X3CjdheNUKrX/Design-user-interface-screens?p=f&t=jbdPbBUOf9zM5fGM-0&fullscreen=1&preview-route=%2Ffind-ride
 ## Diagrama de Sequência
 https://github.com/Femadur0/UniMove/blob/main/docs/diagramas/diagramasequencia.md
 ## Diagrama de Caso de Uso
