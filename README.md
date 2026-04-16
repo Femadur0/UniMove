@@ -32,7 +32,6 @@ Durante o desenvolvimento foram utilizados conceitos como:
 * Login de usuários
 * Possibilidade de combinar corridas
 * Possibilidade de se cadastrar como motorista
-* 
 * Adição de produtos ao carrinho
 
 ## Metodologia
