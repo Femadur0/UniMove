@@ -88,8 +88,8 @@ O projeto foi dividido em tarefas, as quais foram classificadas por prioridade, 
 
 Para transformar os pontos de esforço em tempo, é necessário definir uma "velocidade média" da equipe:
 - Uma equipe pequena típica (1 dev mobile + 1 backend + 1 apoio/QA parcial) costuma ter uma velocidade média de 20 a 30 pontos por sprint.
-- Vamos assumir uma velocidade mediana de 25 pontos por sprint.
-- Vamos também definir que cada sprint vale 2 semanas.
+- Vamos definir que cada sprint vale 2 semanas.
+- Assim, vamos assumir uma velocidade mediana de 25 pontos por sprint.
 - Logo, basta dividir o total de pontos pela velocidade mediana:
 - 81 / 25 = 3,2 sprints.
 - Vamos arredondar esse valor, assim adicionando margem, para 4 sprints.
