@@ -74,16 +74,16 @@ O projeto foi dividido em tarefas, as quais foram classificadas por prioridade, 
 | CADASTRO COMO MOTORISTA | P0 | S | 3 | 
 | PAGAMENTO E CONFIRMAÇÃO DA CORRIDA | P0 | XL | 13 | 
 | CHAT ENTRE MOTORISTA E PASSAGEIRO | P0 | M | 5 | 
+| SEGURANÇA | P0 | XL | 21 |
 | BUSCAR CORRIDA | P1 | S | 3 |
 | SOLICITAR CARONA | P1 | S | 3 |
-| ACEITAR/REJEITAR SOLICITAÇÃO | P1 | XS | 1 |
-| SISTEMAS DE AVALIAÇÃO | P1 | M | 5 |
 | DEFINIR PONTO DE ENCONTRO | P1 | S | 3 |
 | CANCELAMENTO DE CORRIDAS | P1 | XS | 1 | 
-| VISUALIZAR OS ÚLTIMOS TRAJETOS | P1 | S | 2 | 
-| SEGURANÇA | P0 | XL | 21 | 
 | VISUALIZAÇÃO DO TRAJETO | P1 | M | 8 | 
 | ESTIMAR TEMPO DA CARONA | P2 | M | 8 |
+| ACEITAR/REJEITAR SOLICITAÇÃO | P2 | XS | 1 |
+| SISTEMAS DE AVALIAÇÃO | P2 | M | 5 |
+| VISUALIZAR OS ÚLTIMOS TRAJETOS | P2 | S | 2 |
 | TOTAL | - | - | 81 |
 
 Para transformar os pontos de esforço em tempo, é necessário definir uma "velocidade média" da equipe:
