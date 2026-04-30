@@ -105,3 +105,4 @@ Agora, para transformar o tempo em custo:
 
 - Pedro Cecilio Cano (https://www.figma.com/proto/gFEEpp92Ea3vh2k0mkRw4H/Tela-Inicial-e-Cadastro-UniMove--Pedro-?node-id=0-1&t=Gdjzb9kbSpJL00Mb-1)
 - Alice Rocha, Felipe Mendes, Luiz Pedro e Theodoro Portapilla https://www.figma.com/design/YpIjcPOQSKkVRhHx1AVF1v/UNIMOVE?node-id=0-1&p=f&t=EYQuI4MutD3dxzOl-0
+- Samuel O. Celli: https://www.figma.com/design/WhAe574CqQFxGrgzrscuEB/Mscfly?node-id=0-1&t=kBXwc5AW2NvNRVPI-1
