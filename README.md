@@ -101,4 +101,6 @@ Agora, para transformar o tempo em custo:
 - Logo:
 - (3 x 8000) x 3 = R$ 72.000,00 de custo.
 
+##Atividade Figma
 
+- Pedro Cecilio Cano (https://www.figma.com/proto/gFEEpp92Ea3vh2k0mkRw4H/Tela-Inicial-e-Cadastro-UniMove--Pedro-?node-id=0-1&t=Gdjzb9kbSpJL00Mb-1)
