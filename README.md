@@ -108,4 +108,4 @@ Agora, para transformar o tempo em custo:
 - Samuel O. Celli: https://www.figma.com/design/WhAe574CqQFxGrgzrscuEB/Mscfly?node-id=0-1&t=kBXwc5AW2NvNRVPI-1
 
 - Igor S. Oliveira (https://www.figma.com/design/zhfl6ETMF7SmSOzyYNBjjc/Login?node-id=0-1&t=4dm2VrUDtnhWJz16-1)
-)
+
