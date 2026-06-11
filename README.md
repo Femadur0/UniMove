@@ -109,3 +109,222 @@ Agora, para transformar o tempo em custo:
 
 - Igor S. Oliveira (https://www.figma.com/design/zhfl6ETMF7SmSOzyYNBjjc/Login?node-id=0-1&t=4dm2VrUDtnhWJz16-1)
 
+- # 📅 Planejamento do Projeto UniMove
+
+**Data de Início:** 15/06/2026  
+**Data de Entrega Final:** 06/09/2026  
+**Duração:** 12 semanas (11 sprints + 1 semana de Go Live)
+---
+# 🚀 Cronograma de Sprints
+
+| Sprint | Período | Story Points | Complexidade |
+|---------|----------|--------------:|--------------|
+| SP1 | 15/06/2026 - 21/06/2026 | 15 | Baixa |
+| SP2 | 22/06/2026 - 28/06/2026 | 22 | Alta |
+| SP3 | 29/06/2026 - 05/07/2026 | 23 | Alta |
+| SP4 | 06/07/2026 - 12/07/2026 | 21 | Muito Alta |
+| SP5 | 13/07/2026 - 19/07/2026 | 22 | Alta |
+| SP6 | 20/07/2026 - 26/07/2026 | 29 | Muito Alta |
+| SP7 | 27/07/2026 - 02/08/2026 | 28 | Muito Alta |
+| SP8 | 03/08/2026 - 09/08/2026 | 28 | Alta |
+| SP9 | 10/08/2026 - 16/08/2026 | 29 | Muito Alta |
+| SP10 | 17/08/2026 - 23/08/2026 | 29 | Muito Alta |
+| SP11 | 24/08/2026 - 30/08/2026 | 28 | Alta |
+
+**Total:** 274 Story Points  
+**Velocity Média:** 25 Story Points/Sprint
+
+---
+
+# Sprint 01 - Fundação do Sistema
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #2 | Login no Sistema | P0 | 2 | XS |
+| #1 | Cadastro de Novos Usuários | P0 | 3 | S |
+| #3 | Cadastro como Motorista | P0 | 3 | S |
+| #4 | Buscar Corrida | P1 | 3 | S |
+| #5 | Solicitar Carona | P1 | 3 | S |
+| #6 | Aceitar/Rejeitar Solicitação | P2 | 1 | XS |
+
+**Total SP1:** 15 pontos
+
+---
+
+# Sprint 02 - Corridas e Pagamentos
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #18 | Pagamento e Confirmação da Corrida | P0 | 13 | XL |
+| #22 | Cancelamento de Corridas | P1 | 1 | XS |
+| #21 | Definir Ponto de Encontro | P1 | 3 | S |
+| #20 | Sistema de Avaliação | P2 | 5 | M |
+
+**Total SP2:** 22 pontos
+
+---
+
+# Sprint 03 - Experiência da Viagem
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #25 | Chat Motorista e Passageiro | P0 | 5 | M |
+| #19 | Visualização do Trajeto | P1 | 8 | M |
+| #23 | Estimar Tempo da Carona | P2 | 8 | L |
+| #24 | Visualizar Últimos Trajetos | P2 | 2 | S |
+
+**Total SP3:** 23 pontos
+
+---
+
+# Sprint 04 - Segurança
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #17 | Segurança da Plataforma | P0 | 21 | XL |
+
+**Total SP4:** 21 pontos
+
+---
+
+# Sprint 05 - APIs de Autenticação
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #43 | API Cadastro (Tela Inicial) | P0 | 5 | XL |
+| #41 | API Entrar (Login) | P1 | 13 | L |
+| #44 | API Login (Tela Login) | P2 | 2 | M |
+| #38 | API Termos de Serviço | P2 | 2 | XS |
+
+**Total SP5:** 22 pontos
+
+---
+
+# Sprint 06 - APIs de Cadastro
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #46 | API Cadastro (Tela de Registro) | P1 | 8 | L |
+| #45 | API Cadastro (Tela de Login) | P2 | 21 | XS |
+
+**Total SP6:** 29 pontos
+
+---
+
+# Sprint 07 - Integrações de Login
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #47 | API Entrar | P0 | 13 | XL |
+| #29 | API Login | P0 | 5 | S |
+| #30 | API Ir para Tela de Mensagens | P1 | 3 | S |
+| #34 | API Cadastro Google | P2 | 5 | S |
+| #39 | API Política de Privacidade | P2 | 2 | XS |
+
+**Total SP7:** 28 pontos
+
+---
+
+# Sprint 08 - Integrações Externas
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #26 | API Botão Entrar | P0 | 5 | S |
+| #27 | API Botão Criar Conta | P0 | 5 | S |
+| #50 | API PIX | P0 | 13 | L |
+| #35 | API Cadastro Apple | P2 | 5 | M |
+
+**Total SP8:** 28 pontos
+
+---
+
+# Sprint 09 - Carteira Digital
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #28 | API Carteira | P0 | 13 | L |
+| #37 | API Cadastro Senha | P1 | 8 | M |
+| #31 | API Cancelar Viagem | P1 | 8 | M |
+
+**Total SP9:** 29 pontos
+
+---
+
+# Sprint 10 - Processamento Financeiro
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #48 | API Processos de Pagamento | P0 | 21 | L |
+| #33 | API Cadastro Email | P1 | 8 | S |
+
+**Total SP10:** 29 pontos
+
+---
+
+# Sprint 11 - Integrações Finais
+
+| ID | História | Prioridade | Fibonacci | Tamanho |
+|----|-----------|------------|------------|----------|
+| #36 | API Mapa | P0 | 13 | M |
+| #49 | API NUPAY | P1 | 13 | M |
+| #32 | API Voltar para Tela Anterior | P2 | 2 | XS |
+
+**Total SP11:** 28 pontos
+
+---
+
+# 📦 Milestones
+
+| Milestone | Data de Entrega | Conteúdo |
+|------------|----------------|-----------|
+| M1 - Fundação e Acesso | 03/08/2026 | Login, Cadastro, Google, Apple, Termos |
+| M2 - Core das Corridas | 29/06/2026 | Corridas, Avaliações, Cancelamentos |
+| M3 - Experiência da Viagem | 17/08/2026 | Chat, Trajeto, Carteira |
+| M4 - Segurança e Pagamentos | 31/08/2026 | PIX, NUPAY, Segurança |
+| M5 - Go Live | 06/09/2026 | Publicação e Homologação |
+
+---
+
+# 👥 Equipe
+
+| Cargo | Nome | Horas/Semana |
+|---------|---------|-------------:|
+| Product Owner | Marina Costa | 40h |
+| Tech Lead | Ricardo Mendes | 20h |
+| Backend Senior | Lucas Almeida | 40h |
+| Backend Pleno | Fernanda Souza | 40h |
+| Frontend Senior | Gabriel Santos | 40h |
+| Frontend Pleno | Amanda Ribeiro | 40h |
+| DBA | Eduardo Lima | 15h |
+| QA | Juliana Rocha | 30h |
+| DevOps | Carlos Ferreira | 15h |
+
+---
+
+# 💰 Custos do Projeto
+
+| Cargo | Horas Totais | Valor/Hora | Total |
+|---------|-------------:|------------:|------------:|
+| Product Owner | 480h | R$ 120 | R$ 57.600 |
+| Tech Lead | 240h | R$ 180 | R$ 43.200 |
+| Backend Senior | 480h | R$ 140 | R$ 67.200 |
+| Backend Pleno | 480h | R$ 100 | R$ 48.000 |
+| Frontend Senior | 480h | R$ 140 | R$ 67.200 |
+| Frontend Pleno | 480h | R$ 100 | R$ 48.000 |
+| DBA | 180h | R$ 130 | R$ 23.400 |
+| QA | 360h | R$ 80 | R$ 28.800 |
+| DevOps | 180h | R$ 150 | R$ 27.000 |
+
+## Total de Desenvolvimento
+
+**R$ 410.400**
+
+## Valor Comercial Sugerido
+
+| Cenário | Valor |
+|----------|---------:|
+| Custo Interno | R$ 410.400 |
+| Venda Conservadora | R$ 520.000 |
+| Venda Mercado | R$ 580.000 |
+| Venda Premium | R$ 650.000 |
+
